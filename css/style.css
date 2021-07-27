@@ -1,0 +1,99 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: arial
+}
+.header{
+/*	background: lightgrey;*/
+	width: 100%;
+	display: flex;
+	padding: 32px 100px;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 10;
+}
+.logo{
+	width: 20%;
+}
+.logo a{
+	color: white;
+	text-decoration: none;
+	letter-spacing: 2px;
+}
+.menu{
+	width: 70%;
+}
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+}
+.menu ul li{
+	margin: 0 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.menu ul li a:hover{
+	color: red;
+}
+.icon{
+	width: 10%;
+}
+.banner{
+	background: red;
+	height: 100vh;	
+	position: relative;
+}
+.banner video{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.text-box{
+	background: rgba(0,0,0,0.58);
+	position: absolute;
+	top:25%;
+	left: 28%;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 50px 50px;
+}
+.text-box h3{
+	font-size: 16px;
+	letter-spacing: 5px;
+	word-spacing: 10px;
+}
+.text-box h1{
+	font-size: 72px;
+	letter-spacing: 10px;
+	margin: 20px 0;
+}
+.text-box p{
+	font-size: 14px;
+	letter-spacing: 3px;
+	margin-bottom: 50px;
+}
+.text-box a{
+	font-size: 14px;
+	text-decoration: none;
+	color: white;
+/*	background: black;*/
+	padding:20px 40px;
+	letter-spacing: 2px;
+	border: 1px solid white;
+}
+.text-box a:hover{
+	background: white;
+	color: black;
+}
+.icon a{
+	color: white;
+	font-size: 18px;
+	margin: 0 10px;
+}
